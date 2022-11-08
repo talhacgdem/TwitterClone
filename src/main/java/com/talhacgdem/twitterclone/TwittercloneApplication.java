@@ -1,4 +1,4 @@
-package com.talhacgden.twitterclone;
+package com.talhacgdem.twitterclone;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
