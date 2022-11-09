@@ -59,4 +59,29 @@ public class GeneralExceptionHandler extends ResponseEntityExceptionHandler {
     public ResponseEntity<?> userNotFoundExceptionHandler(UserNotFoundException exception){
         return new ResponseEntity<>(exception.getMessage(), HttpStatus.NOT_FOUND);
     }
+
+    @ExceptionHandler(TweetNotFoundException.class)
+    public ResponseEntity<?> tweetNotFoundExceptionHandler(TweetNotFoundException exception){
+        return new ResponseEntity<>(exception.getMessage(), HttpStatus.NOT_FOUND);
+    }
+
+    @ExceptionHandler(TweetAlreadyFavoritedException.class)
+    public ResponseEntity<?> tweetAlreadyFavoritedExceptionHandler(TweetAlreadyFavoritedException exception){
+        return new ResponseEntity<>(exception.getMessage(), HttpStatus.ALREADY_REPORTED);
+    }
+
+    @ExceptionHandler(TweetAlreadyUnfavoritedException.class)
+    public ResponseEntity<?> tweetAlreadyUnfavoritedExceptionHandler(TweetAlreadyUnfavoritedException exception){
+        return new ResponseEntity<>(exception.getMessage(), HttpStatus.ALREADY_REPORTED);
+    }
+
+    @ExceptionHandler(UserAlreadyFollowedException.class)
+    public ResponseEntity<?> userAlreadyFollowedExceptionHandler(UserAlreadyFollowedException exception){
+        return new ResponseEntity<>(exception.getMessage(), HttpStatus.ALREADY_REPORTED);
+    }
+
+    @ExceptionHandler(UserAlreadyUnfollowedException.class)
+    public ResponseEntity<?> userAlreadyunFollowedExceptionHandler(UserAlreadyUnfollowedException exception){
+        return new ResponseEntity<>(exception.getMessage(), HttpStatus.ALREADY_REPORTED);
+    }
 }
