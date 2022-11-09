@@ -24,7 +24,7 @@ public class Auth {
         return parseSecurityContext().getUsername();
     }
 
-    public Integer getAuthId(){
+    public Long getAuthId(){
         return parseSecurityContext().getId();
     }
 }
