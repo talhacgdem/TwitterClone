@@ -27,9 +27,16 @@ public class UserService {
     private final PasswordEncoder passwordEncoder;
     private final Auth auth;
 
-    public List<User> getAll() {
-        return userRepository.findAll();
+
+
+    public List<UserResponseDto> getAll() {
+        return userRepository.findAll().stream().map(user -> modelMapper.map(user, UserResponseDto.class)).collect(Collectors.toList());
     }
+
+    public User findById(Long userId){
+        return userRepository.findById(userId).orElseThrow(()->new UserNotFoundException(userId));
+    }
+
 
     public User register(RegisterDto registerDto) {
         if (registerDto.getMail() == null || registerDto.getMail().equals("")) throw new MailValueNotPresentException();
@@ -44,7 +51,7 @@ public class UserService {
     }
 
     public UserResponseDto updateInformations(UserUpdateDto userUpdateDto) {
-        int userId = auth.getAuthId();
+        Long userId = auth.getAuthId();
         User user = userRepository.findById(userId).orElseThrow(() -> new UserNotFoundException(userId));
         return modelMapper.map(
                 userRepository.save(userMapper.convertFromUpdateDto(user, userUpdateDto)),
@@ -57,6 +64,8 @@ public class UserService {
             throw new SelfFollowingException();
         User target = getFollowProcessUser(followRequestDto.getFollowId());
         List<User> followings = getFollowingListFromActiveUser();
+        if (followings.contains(target))
+            throw new UserAlreadyFollowedException(target.getId());
         followings.add(target);
         User u = getActiveUser();
         u.setFollowings(followings);
@@ -69,23 +78,25 @@ public class UserService {
         User activeUser = getActiveUser();
         User target = getFollowProcessUser(followRequestDto.getFollowId());
         List<User> followings = activeUser.getFollowings();
+        if (!followings.contains(target))
+            throw new UserAlreadyUnfollowedException(target.getId());
         followings.remove(target);
         activeUser.setFollowings(followings);
         return userRepository.save(activeUser).getFollowings().stream()
                 .map(fl -> modelMapper.map(fl, FollowingsDto.class)).collect(Collectors.toList());
     }
 
-    private User getFollowProcessUser(Integer userId){
+    private User getFollowProcessUser(Long userId){
         return userRepository.findById(userId)
                 .orElseThrow(() -> new UserNotFoundException(userId));
     }
 
-    private List<User> getFollowingListFromActiveUser() {
+    protected List<User> getFollowingListFromActiveUser() {
         return getActiveUser().getFollowings();
     }
 
     private User getActiveUser(){
-        int authorId = auth.getAuthId();
+        Long authorId = auth.getAuthId();
         return userRepository.findById(authorId)
                 .orElseThrow(() -> new UserNotFoundException(authorId));
     }
