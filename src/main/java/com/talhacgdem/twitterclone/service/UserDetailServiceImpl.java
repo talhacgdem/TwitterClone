@@ -22,7 +22,7 @@ public class UserDetailServiceImpl implements UserDetailsService {
         return JwtUserDetails.create(user);
     }
 
-    public UserDetails loadUserById(Integer id) {
+    public UserDetails loadUserById(Long id) {
         User user = userRepository.findById(id).orElseThrow(() -> new UserNotFoundException(id));
         return JwtUserDetails.create(user);
     }
