@@ -1,6 +1,7 @@
 package com.talhacgdem.twitterclone.service;
 
 import com.talhacgdem.twitterclone.dto.request.NewTweetRequestDto;
+import com.talhacgdem.twitterclone.dto.request.RetweetRequestDto;
 import com.talhacgdem.twitterclone.dto.response.TweetResponse;
 import com.talhacgdem.twitterclone.dto.response.TweetTreeResponse;
 import com.talhacgdem.twitterclone.entity.Tweet;
@@ -96,4 +97,10 @@ public class TweetService {
         return tweetRepository.findByUser_idInOrderByTimeDesc(users).stream()
                 .map(tr -> modelMapper.map(tr, TweetResponse.class)).collect(Collectors.toList());
     }
+
+    public List<TweetResponse> retweet(RetweetRequestDto retweetRequestDto) {
+        return userService.retweet(tweetRepository.findById(retweetRequestDto.getTweetId())
+                .orElseThrow(() -> new TweetNotFoundException(retweetRequestDto.getTweetId())));
+    }
+
 }

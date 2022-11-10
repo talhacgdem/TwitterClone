@@ -84,4 +84,9 @@ public class GeneralExceptionHandler extends ResponseEntityExceptionHandler {
     public ResponseEntity<?> userAlreadyunFollowedExceptionHandler(UserAlreadyUnfollowedException exception){
         return new ResponseEntity<>(exception.getMessage(), HttpStatus.ALREADY_REPORTED);
     }
+
+    @ExceptionHandler(TweetAlreadyRetweetedException.class)
+    public ResponseEntity<?> tweetAlreadyRetweetedExceptionHandler(TweetAlreadyRetweetedException exception){
+        return new ResponseEntity<>(exception.getMessage(), HttpStatus.ALREADY_REPORTED);
+    }
 }

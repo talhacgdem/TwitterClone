@@ -3,7 +3,9 @@ package com.talhacgdem.twitterclone.service;
 import com.talhacgdem.twitterclone.dto.request.FollowRequestDto;
 import com.talhacgdem.twitterclone.dto.request.UserUpdateDto;
 import com.talhacgdem.twitterclone.dto.response.FollowingsDto;
+import com.talhacgdem.twitterclone.dto.response.TweetResponse;
 import com.talhacgdem.twitterclone.dto.response.UserResponseDto;
+import com.talhacgdem.twitterclone.entity.Tweet;
 import com.talhacgdem.twitterclone.entity.User;
 import com.talhacgdem.twitterclone.exception.*;
 import com.talhacgdem.twitterclone.dto.mapper.UserMapper;
@@ -106,4 +108,17 @@ public class UserService {
     }
 
 
+    public List<TweetResponse> retweet(Tweet retweet) {
+        User activeUser = getActiveUser();
+        List<Tweet> retweets = activeUser.getRetweets();
+
+        if (retweets.contains(retweet))
+            retweets.remove(retweet);
+        else
+            retweets.add(retweet);
+
+        activeUser.setRetweets(retweets);
+        userRepository.save(activeUser);
+        return retweets.stream().map(rt -> modelMapper.map(rt, TweetResponse.class)).toList();
+    }
 }

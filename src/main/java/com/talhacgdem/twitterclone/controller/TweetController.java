@@ -1,6 +1,7 @@
 package com.talhacgdem.twitterclone.controller;
 
 import com.talhacgdem.twitterclone.dto.request.NewTweetRequestDto;
+import com.talhacgdem.twitterclone.dto.request.RetweetRequestDto;
 import com.talhacgdem.twitterclone.dto.request.TweetFavUnfavRequestDto;
 import com.talhacgdem.twitterclone.service.TweetService;
 import lombok.RequiredArgsConstructor;
@@ -24,6 +25,11 @@ public class TweetController {
         return new ResponseEntity<>(tweetService.newTweet(newTweetRequestDto), HttpStatus.CREATED);
     }
 
+    @PutMapping("/retweet")
+    public ResponseEntity<?> retweet(@RequestBody RetweetRequestDto retweetRequestDto){
+        return new ResponseEntity<>(tweetService.retweet(retweetRequestDto), HttpStatus.CREATED);
+    }
+
     @GetMapping("/get/{tweetid}")
     public ResponseEntity<?> get(@PathVariable Long tweetid){
         return new ResponseEntity<>(tweetService.get(tweetid), HttpStatus.OK);
@@ -31,7 +37,7 @@ public class TweetController {
 
     @PutMapping("/fav")
     public ResponseEntity<?> fav(@RequestBody TweetFavUnfavRequestDto tweetFavUnfavRequestDto){
-        return new ResponseEntity<>(tweetService.fav(tweetFavUnfavRequestDto.getTweetId()), HttpStatus.OK);
+        return new ResponseEntity<>(tweetService.fav(tweetFavUnfavRequestDto.getTweetId()), HttpStatus.CREATED);
     }
 
     @DeleteMapping("/unfav")
