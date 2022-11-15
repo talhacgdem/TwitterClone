@@ -30,4 +30,7 @@ public class Tweet {
     @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private List<User> favs;
 
+    @ManyToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    private List<User> retweets;
+
 }

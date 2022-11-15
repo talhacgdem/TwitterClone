@@ -39,18 +39,17 @@ public class UserService {
         return userRepository.findById(userId).orElseThrow(()->new UserNotFoundException(userId));
     }
 
-    public List<TweetResponse> retweet(Tweet retweet) {
+    public Tweet retweet(Tweet retweet) {
         User activeUser = getActiveUser();
-        List<Tweet> retweets = activeUser.getRetweets();
+        List<User> retweets = retweet.getRetweets();
 
-        if (retweets.contains(retweet))
-            retweets.remove(retweet);
+        if (retweets.contains(activeUser))
+            retweets.remove(activeUser);
         else
-            retweets.add(retweet);
+            retweets.add(activeUser);
 
-        activeUser.setRetweets(retweets);
-        User u = userRepository.save(activeUser);
-        return u.getRetweets().stream().map(rt -> modelMapper.map(rt, TweetResponse.class)).toList();
+        retweet.setRetweets(retweets);
+        return retweet;
     }
 
     public User register(RegisterDto registerDto) {

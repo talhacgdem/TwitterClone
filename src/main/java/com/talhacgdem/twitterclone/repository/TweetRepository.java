@@ -15,5 +15,9 @@ public interface TweetRepository extends JpaRepository<Tweet, Long> {
     @Query("select t from Tweet t where t.user_id in ?1 order by t.time DESC")
     List<Tweet> findByUser_idInOrderByTimeDesc(List<User> users);
 
+    @Query("select t from Tweet t where t.user_id = ?1")
     List<Tweet> findByUser_id(User activeUser);
+
+    @Query("select t from Tweet t where t.retweets in ?1 order by t.time DESC")
+    List<Tweet> findByRetweetsInOrderByTimeDesc(List<User> users);
 }
