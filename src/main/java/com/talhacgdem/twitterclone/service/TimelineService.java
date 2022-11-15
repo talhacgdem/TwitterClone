@@ -17,4 +17,9 @@ public class TimelineService {
         List<User> followings = userService.getFollowingListFromActiveUser();
         return tweetService.getTimelineTweets(followings);
     }
+
+    public List<TweetResponse> getMyTweets() {
+        User activeUser = userService.getActiveUser();
+        return tweetService.getTweetsFromUser(activeUser);
+    }
 }

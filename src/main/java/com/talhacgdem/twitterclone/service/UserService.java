@@ -39,6 +39,19 @@ public class UserService {
         return userRepository.findById(userId).orElseThrow(()->new UserNotFoundException(userId));
     }
 
+    public List<TweetResponse> retweet(Tweet retweet) {
+        User activeUser = getActiveUser();
+        List<Tweet> retweets = activeUser.getRetweets();
+
+        if (retweets.contains(retweet))
+            retweets.remove(retweet);
+        else
+            retweets.add(retweet);
+
+        activeUser.setRetweets(retweets);
+        User u = userRepository.save(activeUser);
+        return u.getRetweets().stream().map(rt -> modelMapper.map(rt, TweetResponse.class)).toList();
+    }
 
     public User register(RegisterDto registerDto) {
         if (registerDto.getMail() == null || registerDto.getMail().equals("")) throw new MailValueNotPresentException();
@@ -97,7 +110,7 @@ public class UserService {
         return getActiveUser().getFollowings();
     }
 
-    private User getActiveUser(){
+    protected User getActiveUser(){
         Long authorId = auth.getAuthId();
         return userRepository.findById(authorId)
                 .orElseThrow(() -> new UserNotFoundException(authorId));
@@ -108,17 +121,5 @@ public class UserService {
     }
 
 
-    public List<TweetResponse> retweet(Tweet retweet) {
-        User activeUser = getActiveUser();
-        List<Tweet> retweets = activeUser.getRetweets();
 
-        if (retweets.contains(retweet))
-            retweets.remove(retweet);
-        else
-            retweets.add(retweet);
-
-        activeUser.setRetweets(retweets);
-        userRepository.save(activeUser);
-        return retweets.stream().map(rt -> modelMapper.map(rt, TweetResponse.class)).toList();
-    }
 }

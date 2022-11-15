@@ -48,6 +48,12 @@ public class TweetService {
         return tweetRepository.findAll().stream().map(t -> modelMapper.map(t, TweetResponse.class))
                 .collect(Collectors.toList());
     }
+
+    public List<TweetResponse> retweet(RetweetRequestDto retweetRequestDto) {
+        return userService.retweet(tweetRepository.findById(retweetRequestDto.getTweetId())
+                .orElseThrow(() -> new TweetNotFoundException(retweetRequestDto.getTweetId())));
+    }
+
     public TweetTreeResponse get(Long tweetid) {
 
         Tweet tweet = tweetRepository.findById(tweetid)
@@ -98,9 +104,10 @@ public class TweetService {
                 .map(tr -> modelMapper.map(tr, TweetResponse.class)).collect(Collectors.toList());
     }
 
-    public List<TweetResponse> retweet(RetweetRequestDto retweetRequestDto) {
-        return userService.retweet(tweetRepository.findById(retweetRequestDto.getTweetId())
-                .orElseThrow(() -> new TweetNotFoundException(retweetRequestDto.getTweetId())));
-    }
 
+    public List<TweetResponse> getTweetsFromUser(User activeUser) {
+        return tweetRepository.findByUser_id(activeUser).stream().map(
+                t -> modelMapper.map(t, TweetResponse.class)
+        ).collect(Collectors.toList());
+    }
 }

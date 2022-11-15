@@ -17,4 +17,9 @@ public class TimelineController {
     public ResponseEntity<?> get(){
         return ResponseEntity.ok(timelineService.get());
     }
+
+    @GetMapping("me")
+    public ResponseEntity<?> getMyTweets(){
+        return ResponseEntity.ok(timelineService.getMyTweets());
+    }
 }
