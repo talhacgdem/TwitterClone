@@ -66,7 +66,7 @@ public class SecurityConfiguration {
                 .exceptionHandling().authenticationEntryPoint(handler).and()
                 .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS).and()
                 .authorizeRequests()
-                .antMatchers("/auth/**")
+                .antMatchers("/auth/**", "/swagger/**", "/v2/api-docs/**", "/swagger-ui.html/**")
                 .permitAll()
                 .anyRequest().authenticated();
 

@@ -2,6 +2,8 @@ package com.talhacgdem.twitterclone.service;
 
 import com.talhacgdem.twitterclone.dto.request.NewTweetRequestDto;
 import com.talhacgdem.twitterclone.dto.request.RetweetRequestDto;
+import com.talhacgdem.twitterclone.dto.response.TimelineResponseDto;
+import com.talhacgdem.twitterclone.dto.response.TweetDetailResponseDto;
 import com.talhacgdem.twitterclone.dto.response.TweetResponse;
 import com.talhacgdem.twitterclone.dto.response.TweetTreeResponse;
 import com.talhacgdem.twitterclone.entity.Tweet;
@@ -102,21 +104,25 @@ public class TweetService {
         return modelMapper.map(tweetRepository.save(tweet), TweetResponse.class);
     }
 
-    protected List<TweetResponse> getTimelineTweets(List<User> users){
-        List<TweetResponse> tweets = tweetRepository.findByUser_idInOrderByTimeDesc(users).stream()
-                .map(tr -> modelMapper.map(tr, TweetResponse.class)).toList();
+    protected TimelineResponseDto getTimelineTweets(List<User> users){
+        List<Tweet> tweets = tweetRepository.findByUser_idInOrderByTimeDesc(users);
 
+        List<Tweet> retweetsDto = tweetRepository.findByRetweetsIn(users);
 
+        retweetsDto.addAll(tweets);
 
-        List<TweetResponse> retweets = tweetRepository.findByRetweetsInOrderByTimeDesc(users).stream()
-                .map(tr -> modelMapper.map(tr, TweetResponse.class)).toList();
-        return retweets;
+        TimelineResponseDto responseDto = new TimelineResponseDto();
+        responseDto.setTweets(tweets.stream().map(t -> modelMapper.map(t, TweetDetailResponseDto.class)).collect(Collectors.toList()));
+        responseDto.setRetweets(retweetsDto.stream().map(t -> modelMapper.map(t, TweetDetailResponseDto.class)).collect(Collectors.toList()));
+
+        return responseDto;
     }
 
 
-    public List<TweetResponse> getTweetsFromUser(User activeUser) {
-        return tweetRepository.findByUser_id(activeUser).stream().map(
+    public List<TweetResponse> getTweetsFromUser(User user) {
+        return tweetRepository.findByUser_id(user).stream().map(
                 t -> modelMapper.map(t, TweetResponse.class)
         ).collect(Collectors.toList());
     }
+
 }
