@@ -16,5 +16,5 @@ This project works like Twitter, it's just clone. You can do all the basic opera
 
 #Entity
 
-![new_todo.png](https://github.com/talhacgdem/TwitterClone/blob/master/assets/entities.svg) <br/>  <br/>
+![new_todo.png](https://github.com/talhacgdem/TwitterClone/blob/master/assets/entities.jpg) <br/>  <br/>
 
