@@ -3,7 +3,7 @@
 This project works like Twitter, it's just clone. You can do all the basic operations you can do on twitter on this project.
 
 ## Swagger-UI API Documentation
-### Documentation is available on path : /swagger
+### Documentation is available on path : /docs
 
 <hr>
 
