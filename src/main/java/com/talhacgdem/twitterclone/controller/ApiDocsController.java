@@ -3,9 +3,11 @@ package com.talhacgdem.twitterclone.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import springfox.documentation.annotations.ApiIgnore;
 
 @Controller
-@RequestMapping("/swagger")
+@RequestMapping("/docs")
+@ApiIgnore
 public class ApiDocsController {
 
     @GetMapping
