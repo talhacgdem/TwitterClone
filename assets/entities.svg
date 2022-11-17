@@ -1,112 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE svg
-PUBLIC "-//W3C//DTD SVG 1.1//EN"
-       "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg viewBox="61 2 675 342" width="614px" height="340px" xmlns="http://www.w3.org/2000/svg" version="1.1">
-   <line x1="576" y1="127" x2="566" y2="127" style="stroke:#333;stroke-width:1;"/>
-   <line x1="461" y1="157" x2="451" y2="157" style="stroke:#333;stroke-width:1;"/>
-   <line x1="566" y1="127" x2="461" y2="157" style="stroke:#333;stroke-width:1;"/>
-   <line x1="568.5" y1="127" x2="572.03553390593" y2="130.53553390593" style="stroke:#333;stroke-width:2;"/>
-   <line x1="568.5" y1="127" x2="572.03553390593" y2="123.46446609407" style="stroke:#333;stroke-width:2;"/>
-   <line x1="456" y1="157" x2="459.53553390593" y2="160.53553390593" style="stroke:#333;stroke-width:2;"/>
-   <line x1="456" y1="157" x2="459.53553390593" y2="153.46446609407" style="stroke:#333;stroke-width:2;"/>
-   <line x1="576" y1="107" x2="566" y2="107" style="stroke:#333;stroke-width:1;"/>
-   <line x1="566" y1="47" x2="576" y2="47" style="stroke:#333;stroke-width:1;"/>
-   <line x1="566" y1="107" x2="566" y2="47" style="stroke:#333;stroke-width:1;"/>
-   <line x1="568.5" y1="107" x2="572.03553390593" y2="110.53553390593" style="stroke:#333;stroke-width:2;"/>
-   <line x1="568.5" y1="107" x2="572.03553390593" y2="103.46446609407" style="stroke:#333;stroke-width:2;"/>
-   <line x1="571" y1="47" x2="567.46446609407" y2="50.535533905933" style="stroke:#333;stroke-width:2;"/>
-   <line x1="571" y1="47" x2="567.46446609407" y2="43.464466094067" style="stroke:#333;stroke-width:2;"/>
-   <line x1="190" y1="72" x2="200" y2="72" style="stroke:#0bf;stroke-width:1;"/>
-   <line x1="329" y1="157" x2="339" y2="157" style="stroke:#0bf;stroke-width:1;"/>
-   <line x1="200" y1="72" x2="329" y2="157" style="stroke:#0bf;stroke-width:1;"/>
-   <line x1="197.5" y1="72" x2="193.96446609407" y2="75.535533905933" style="stroke:#0bf;stroke-width:2;"/>
-   <line x1="197.5" y1="72" x2="193.96446609407" y2="68.464466094067" style="stroke:#0bf;stroke-width:2;"/>
-   <line x1="334" y1="157" x2="330.46446609407" y2="160.53553390593" style="stroke:#0bf;stroke-width:2;"/>
-   <line x1="334" y1="157" x2="330.46446609407" y2="153.46446609407" style="stroke:#0bf;stroke-width:2;"/>
-   <line x1="190" y1="52" x2="200" y2="52" style="stroke:#0b0;stroke-width:1;"/>
-   <line x1="566" y1="47" x2="576" y2="47" style="stroke:#0b0;stroke-width:1;"/>
-   <line x1="200" y1="52" x2="566" y2="47" style="stroke:#0b0;stroke-width:1;"/>
-   <line x1="197.5" y1="52" x2="193.96446609407" y2="55.535533905933" style="stroke:#0b0;stroke-width:2;"/>
-   <line x1="197.5" y1="52" x2="193.96446609407" y2="48.464466094067" style="stroke:#0b0;stroke-width:2;"/>
-   <line x1="571" y1="47" x2="567.46446609407" y2="50.535533905933" style="stroke:#0b0;stroke-width:2;"/>
-   <line x1="571" y1="47" x2="567.46446609407" y2="43.464466094067" style="stroke:#0b0;stroke-width:2;"/>
-   <line x1="526" y1="285" x2="516" y2="285" style="stroke:#333;stroke-width:1;"/>
-   <line x1="566" y1="47" x2="576" y2="47" style="stroke:#333;stroke-width:1;"/>
-   <line x1="516" y1="285" x2="566" y2="47" style="stroke:#333;stroke-width:1;"/>
-   <line x1="518.5" y1="285" x2="522.03553390593" y2="288.53553390593" style="stroke:#333;stroke-width:2;"/>
-   <line x1="518.5" y1="285" x2="522.03553390593" y2="281.46446609407" style="stroke:#333;stroke-width:2;"/>
-   <line x1="571" y1="47" x2="567.46446609407" y2="50.535533905933" style="stroke:#333;stroke-width:2;"/>
-   <line x1="571" y1="47" x2="567.46446609407" y2="43.464466094067" style="stroke:#333;stroke-width:2;"/>
-   <line x1="526" y1="305" x2="516" y2="305" style="stroke:#b0b;stroke-width:1;"/>
-   <line x1="461" y1="157" x2="451" y2="157" style="stroke:#b0b;stroke-width:1;"/>
-   <line x1="516" y1="305" x2="461" y2="157" style="stroke:#b0b;stroke-width:1;"/>
-   <line x1="518.5" y1="305" x2="522.03553390593" y2="308.53553390593" style="stroke:#b0b;stroke-width:2;"/>
-   <line x1="518.5" y1="305" x2="522.03553390593" y2="301.46446609407" style="stroke:#b0b;stroke-width:2;"/>
-   <line x1="456" y1="157" x2="459.53553390593" y2="160.53553390593" style="stroke:#b0b;stroke-width:2;"/>
-   <line x1="456" y1="157" x2="459.53553390593" y2="153.46446609407" style="stroke:#b0b;stroke-width:2;"/>
-   <line x1="188" y1="286" x2="198" y2="286" style="stroke:#cb0;stroke-width:1;"/>
-   <line x1="329" y1="157" x2="339" y2="157" style="stroke:#cb0;stroke-width:1;"/>
-   <line x1="198" y1="286" x2="329" y2="157" style="stroke:#cb0;stroke-width:1;"/>
-   <line x1="195.5" y1="286" x2="191.96446609407" y2="289.53553390593" style="stroke:#cb0;stroke-width:2;"/>
-   <line x1="195.5" y1="286" x2="191.96446609407" y2="282.46446609407" style="stroke:#cb0;stroke-width:2;"/>
-   <line x1="334" y1="157" x2="330.46446609407" y2="160.53553390593" style="stroke:#cb0;stroke-width:2;"/>
-   <line x1="334" y1="157" x2="330.46446609407" y2="153.46446609407" style="stroke:#cb0;stroke-width:2;"/>
-   <line x1="188" y1="266" x2="198" y2="266" style="stroke:#cb0;stroke-width:1;"/>
-   <line x1="329" y1="157" x2="339" y2="157" style="stroke:#cb0;stroke-width:1;"/>
-   <line x1="198" y1="266" x2="329" y2="157" style="stroke:#cb0;stroke-width:1;"/>
-   <line x1="195.5" y1="266" x2="191.96446609407" y2="269.53553390593" style="stroke:#cb0;stroke-width:2;"/>
-   <line x1="195.5" y1="266" x2="191.96446609407" y2="262.46446609407" style="stroke:#cb0;stroke-width:2;"/>
-   <line x1="334" y1="157" x2="330.46446609407" y2="160.53553390593" style="stroke:#cb0;stroke-width:2;"/>
-   <line x1="334" y1="157" x2="330.46446609407" y2="153.46446609407" style="stroke:#cb0;stroke-width:2;"/>
-   <rect width="112" height="20" x="576" y="17" style="fill:#007;stroke:black;"/>
-   <text width="112" height="20" x="581" y="31" style="fill:#fff;" font-family="Arial" font-size="16px"> tweet</text>
-   <rect width="112" height="20" x="576" y="37" style="fill:#aea;stroke:black;"/>
-   <text width="112" height="20" x="581" y="51" style="fill:black;" font-family="Arial" font-size="16px">id</text>
-   <rect width="112" height="20" x="576" y="57" style="fill:none;stroke:black;"/>
-   <text width="112" height="20" x="581" y="71" style="fill:black;" font-family="Arial" font-size="16px">text</text>
-   <rect width="112" height="20" x="576" y="77" style="fill:none;stroke:black;"/>
-   <text width="112" height="20" x="581" y="91" style="fill:black;" font-family="Arial" font-size="16px">time</text>
-   <rect width="112" height="20" x="576" y="97" style="fill:none;stroke:black;"/>
-   <text width="112" height="20" x="581" y="111" style="fill:black;" font-family="Arial" font-size="16px">mention_id</text>
-   <rect width="112" height="20" x="576" y="117" style="fill:none;stroke:black;"/>
-   <text width="112" height="20" x="581" y="131" style="fill:black;" font-family="Arial" font-size="16px">user_id</text>
-   <rect width="112" height="20" x="78" y="22" style="fill:#007;stroke:black;"/>
-   <text width="112" height="20" x="83" y="36" style="fill:#fff;" font-family="Arial" font-size="16px"> tweet_favs</text>
-   <rect width="112" height="20" x="78" y="42" style="fill:none;stroke:black;"/>
-   <text width="112" height="20" x="83" y="56" style="fill:black;" font-family="Arial" font-size="16px">tweet_id</text>
-   <rect width="112" height="20" x="78" y="62" style="fill:none;stroke:black;"/>
-   <text width="112" height="20" x="83" y="76" style="fill:black;" font-family="Arial" font-size="16px">favs_id</text>
-   <rect width="112" height="20" x="526" y="255" style="fill:#007;stroke:black;"/>
-   <text width="112" height="20" x="531" y="269" style="fill:#fff;" font-family="Arial" font-size="16px"> tweet_retweets</text>
-   <rect width="112" height="20" x="526" y="275" style="fill:none;stroke:black;"/>
-   <text width="112" height="20" x="531" y="289" style="fill:black;" font-family="Arial" font-size="16px">tweet_id</text>
-   <rect width="112" height="20" x="526" y="295" style="fill:none;stroke:black;"/>
-   <text width="112" height="20" x="531" y="309" style="fill:black;" font-family="Arial" font-size="16px">retweets_id</text>
-   <rect width="112" height="20" x="339" y="127" style="fill:#007;stroke:black;"/>
-   <text width="112" height="20" x="344" y="141" style="fill:#fff;" font-family="Arial" font-size="16px"> user</text>
-   <rect width="112" height="20" x="339" y="147" style="fill:#aea;stroke:black;"/>
-   <text width="112" height="20" x="344" y="161" style="fill:black;" font-family="Arial" font-size="16px">id</text>
-   <rect width="112" height="20" x="339" y="167" style="fill:none;stroke:black;"/>
-   <text width="112" height="20" x="344" y="181" style="fill:black;" font-family="Arial" font-size="16px">biography</text>
-   <rect width="112" height="20" x="339" y="187" style="fill:none;stroke:black;"/>
-   <text width="112" height="20" x="344" y="201" style="fill:black;" font-family="Arial" font-size="16px">birthday</text>
-   <rect width="112" height="20" x="339" y="207" style="fill:none;stroke:black;"/>
-   <text width="112" height="20" x="344" y="221" style="fill:black;" font-family="Arial" font-size="16px">first_name</text>
-   <rect width="112" height="20" x="339" y="227" style="fill:none;stroke:black;"/>
-   <text width="112" height="20" x="344" y="241" style="fill:black;" font-family="Arial" font-size="16px">last_name</text>
-   <rect width="112" height="20" x="339" y="247" style="fill:none;stroke:black;"/>
-   <text width="112" height="20" x="344" y="261" style="fill:black;" font-family="Arial" font-size="16px">mail</text>
-   <rect width="112" height="20" x="339" y="267" style="fill:none;stroke:black;"/>
-   <text width="112" height="20" x="344" y="281" style="fill:black;" font-family="Arial" font-size="16px">password</text>
-   <rect width="112" height="20" x="339" y="287" style="fill:none;stroke:black;"/>
-   <text width="112" height="20" x="344" y="301" style="fill:black;" font-family="Arial" font-size="16px">reg_date</text>
-   <rect width="112" height="20" x="339" y="307" style="fill:none;stroke:black;"/>
-   <text width="112" height="20" x="344" y="321" style="fill:black;" font-family="Arial" font-size="16px">username</text>
-   <rect width="112" height="20" x="76" y="236" style="fill:#007;stroke:black;"/>
-   <text width="112" height="20" x="81" y="250" style="fill:#fff;" font-family="Arial" font-size="16px"> user_followings</text>
-   <rect width="112" height="20" x="76" y="256" style="fill:none;stroke:black;"/>
-   <text width="112" height="20" x="81" y="270" style="fill:black;" font-family="Arial" font-size="16px">user_id</text>
-   <rect width="112" height="20" x="76" y="276" style="fill:none;stroke:black;"/>
-   <text width="112" height="20" x="81" y="290" style="fill:black;" font-family="Arial" font-size="16px">followings_id</text>
-</svg>
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 675 342" width="675" height="342"><defs><image width="675" height="342" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAqMAAAFWCAYAAABdKJRfAAAAAXNSR0IArs4c6QAAEn9JREFUeF7t1sEJADAMA7F2/6Fd6BL3URYwiDzubttxBAgQIECAAAECBAKBK0YDdZMECBAgQIAAAQJfQIx6BAIECBAgQIAAgUxAjGb0hgkQIECAAAECBMSoHyBAgAABAgQIEMgExGhGb5gAAQIECBAgQECM+gECBAgQIECAAIFMQIxm9IYJECBAgAABAgTEqB8gQIAAAQIECBDIBMRoRm+YAAECBAgQIEBAjPoBAgQIECBAgACBTECMZvSGCRAgQIAAAQIExKgfIECAAAECBAgQyATEaEZvmAABAgQIECBAQIz6AQIECBAgQIAAgUxAjGb0hgkQIECAAAECBMSoHyBAgAABAgQIEMgExGhGb5gAAQIECBAgQECM+gECBAgQIECAAIFMQIxm9IYJECBAgAABAgTEqB8gQIAAAQIECBDIBMRoRm+YAAECBAgQIEBAjPoBAgQIECBAgACBTECMZvSGCRAgQIAAAQIExKgfIECAAAECBAgQyATEaEZvmAABAgQIECBAQIz6AQIECBAgQIAAgUxAjGb0hgkQIECAAAECBMSoHyBAgAABAgQIEMgExGhGb5gAAQIECBAgQECM+gECBAgQIECAAIFMQIxm9IYJECBAgAABAgTEqB8gQIAAAQIECBDIBMRoRm+YAAECBAgQIEBAjPoBAgQIECBAgACBTECMZvSGCRAgQIAAAQIExKgfIECAAAECBAgQyATEaEZvmAABAgQIECBAQIz6AQIECBAgQIAAgUxAjGb0hgkQIECAAAECBMSoHyBAgAABAgQIEMgExGhGb5gAAQIECBAgQECM+gECBAgQIECAAIFMQIxm9IYJECBAgAABAgTEqB8gQIAAAQIECBDIBMRoRm+YAAECBAgQIEBAjPoBAgQIECBAgACBTECMZvSGCRAgQIAAAQIExKgfIECAAAECBAgQyATEaEZvmAABAgQIECBAQIz6AQIECBAgQIAAgUxAjGb0hgkQIECAAAECBMSoHyBAgAABAgQIEMgExGhGb5gAAQIECBAgQECM+gECBAgQIECAAIFMQIxm9IYJECBAgAABAgTEqB8gQIAAAQIECBDIBMRoRm+YAAECBAgQIEBAjPoBAgQIECBAgACBTECMZvSGCRAgQIAAAQIExKgfIECAAAECBAgQyATEaEZvmAABAgQIECBAQIz6AQIECBAgQIAAgUxAjGb0hgkQIECAAAECBMSoHyBAgAABAgQIEMgExGhGb5gAAQIECBAgQECM+gECBAgQIECAAIFMQIxm9IYJECBAgAABAgTEqB8gQIAAAQIECBDIBMRoRm+YAAECBAgQIEBAjPoBAgQIECBAgACBTECMZvSGCRAgQIAAAQIExKgfIECAAAECBAgQyATEaEZvmAABAgQIECBAQIz6AQIECBAgQIAAgUxAjGb0hgkQIECAAAECBMSoHyBAgAABAgQIEMgExGhGb5gAAQIECBAgQECM+gECBAgQIECAAIFMQIxm9IYJECBAgAABAgTEqB8gQIAAAQIECBDIBMRoRm+YAAECBAgQIEBAjPoBAgQIECBAgACBTECMZvSGCRAgQIAAAQIExKgfIECAAAECBAgQyATEaEZvmAABAgQIECBAQIz6AQIECBAgQIAAgUxAjGb0hgkQIECAAAECBMSoHyBAgAABAgQIEMgExGhGb5gAAQIECBAgQECM+gECBAgQIECAAIFMQIxm9IYJECBAgAABAgTEqB8gQIAAAQIECBDIBMRoRm+YAAECBAgQIEBAjPoBAgQIECBAgACBTECMZvSGCRAgQIAAAQIExKgfIECAAAECBAgQyATEaEZvmAABAgQIECBAQIz6AQIECBAgQIAAgUxAjGb0hgkQIECAAAECBMSoHyBAgAABAgQIEMgExGhGb5gAAQIECBAgQECM+gECBAgQIECAAIFMQIxm9IYJECBAgAABAgTEqB8gQIAAAQIECBDIBMRoRm+YAAECBAgQIEBAjPoBAgQIECBAgACBTECMZvSGCRAgQIAAAQIExKgfIECAAAECBAgQyATEaEZvmAABAgQIECBAQIz6AQIECBAgQIAAgUxAjGb0hgkQIECAAAECBMSoHyBAgAABAgQIEMgExGhGb5gAAQIECBAgQECM+gECBAgQIECAAIFMQIxm9IYJECBAgAABAgTEqB8gQIAAAQIECBDIBMRoRm+YAAECBAgQIEBAjPoBAgQIECBAgACBTECMZvSGCRAgQIAAAQIExKgfIECAAAECBAgQyATEaEZvmAABAgQIECBAQIz6AQIECBAgQIAAgUxAjGb0hgkQIECAAAECBMSoHyBAgAABAgQIEMgExGhGb5gAAQIECBAgQECM+gECBAgQIECAAIFMQIxm9IYJECBAgAABAgTEqB8gQIAAAQIECBDIBMRoRm+YAAECBAgQIEBAjPoBAgQIECBAgACBTECMZvSGCRAgQIAAAQIExKgfIECAAAECBAgQyATEaEZvmAABAgQIECBAQIz6AQIECBAgQIAAgUxAjGb0hgkQIECAAAECBMSoHyBAgAABAgQIEMgExGhGb5gAAQIECBAgQECM+gECBAgQIECAAIFMQIxm9IYJECBAgAABAgTEqB8gQIAAAQIECBDIBMRoRm+YAAECBAgQIEBAjPoBAgQIECBAgACBTECMZvSGCRAgQIAAAQIExKgfIECAAAECBAgQyATEaEZvmAABAgQIECBAQIz6AQIECBAgQIAAgUxAjGb0hgkQIECAAAECBMSoHyBAgAABAgQIEMgExGhGb5gAAQIECBAgQECM+gECBAgQIECAAIFMQIxm9IYJECBAgAABAgTEqB8gQIAAAQIECBDIBMRoRm+YAAECBAgQIEBAjPoBAgQIECBAgACBTECMZvSGCRAgQIAAAQIExKgfIECAAAECBAgQyATEaEZvmAABAgQIECBAQIz6AQIECBAgQIAAgUxAjGb0hgkQIECAAAECBMSoHyBAgAABAgQIEMgExGhGb5gAAQIECBAgQECM+gECBAgQIECAAIFMQIxm9IYJECBAgAABAgTEqB8gQIAAAQIECBDIBMRoRm+YAAECBAgQIEBAjPoBAgQIECBAgACBTECMZvSGCRAgQIAAAQIExKgfIECAAAECBAgQyATEaEZvmAABAgQIECBAQIz6AQIECBAgQIAAgUxAjGb0hgkQIECAAAECBMSoHyBAgAABAgQIEMgExGhGb5gAAQIECBAgQECM+gECBAgQIECAAIFMQIxm9IYJECBAgAABAgTEqB8gQIAAAQIECBDIBMRoRm+YAAECBAgQIEBAjPoBAgQIECBAgACBTECMZvSGCRAgQIAAAQIExKgfIECAAAECBAgQyATEaEZvmAABAgQIECBAQIz6AQIECBAgQIAAgUxAjGb0hgkQIECAAAECBMSoHyBAgAABAgQIEMgExGhGb5gAAQIECBAgQECM+gECBAgQIECAAIFMQIxm9IYJECBAgAABAgTEqB8gQIAAAQIECBDIBMRoRm+YAAECBAgQIEBAjPoBAgQIECBAgACBTECMZvSGCRAgQIAAAQIExKgfIECAAAECBAgQyATEaEZvmAABAgQIECBAQIz6AQIECBAgQIAAgUxAjGb0hgkQIECAAAECBMSoHyBAgAABAgQIEMgExGhGb5gAAQIECBAgQECM+gECBAgQIECAAIFMQIxm9IYJECBAgAABAgTEqB8gQIAAAQIECBDIBMRoRm+YAAECBAgQIEBAjPoBAgQIECBAgACBTECMZvSGCRAgQIAAAQIExKgfIECAAAECBAgQyATEaEZvmAABAgQIECBAQIz6AQIECBAgQIAAgUxAjGb0hgkQIECAAAECBMSoHyBAgAABAgQIEMgExGhGb5gAAQIECBAgQECM+gECBAgQIECAAIFMQIxm9IYJECBAgAABAgTEqB8gQIAAAQIECBDIBMRoRm+YAAECBAgQIEBAjPoBAgQIECBAgACBTECMZvSGCRAgQIAAAQIExKgfIECAAAECBAgQyATEaEZvmAABAgQIECBAQIz6AQIECBAgQIAAgUxAjGb0hgkQIECAAAECBMSoHyBAgAABAgQIEMgExGhGb5gAAQIECBAgQECM+gECBAgQIECAAIFMQIxm9IYJECBAgAABAgTEqB8gQIAAAQIECBDIBMRoRm+YAAECBAgQIEBAjPoBAgQIECBAgACBTECMZvSGCRAgQIAAAQIExKgfIECAAAECBAgQyATEaEZvmAABAgQIECBAQIz6AQIECBAgQIAAgUxAjGb0hgkQIECAAAECBMSoHyBAgAABAgQIEMgExGhGb5gAAQIECBAgQECM+gECBAgQIECAAIFMQIxm9IYJECBAgAABAgTEqB8gQIAAAQIECBDIBMRoRm+YAAECBAgQIEBAjPoBAgQIECBAgACBTECMZvSGCRAgQIAAAQIExKgfIECAAAECBAgQyATEaEZvmAABAgQIECBAQIz6AQIECBAgQIAAgUxAjGb0hgkQIECAAAECBMSoHyBAgAABAgQIEMgExGhGb5gAAQIECBAgQECM+gECBAgQIECAAIFMQIxm9IYJECBAgAABAgTEqB8gQIAAAQIECBDIBMRoRm+YAAECBAgQIEBAjPoBAgQIECBAgACBTECMZvSGCRAgQIAAAQIExKgfIECAAAECBAgQyATEaEZvmAABAgQIECBAQIz6AQIECBAgQIAAgUxAjGb0hgkQIECAAAECBMSoHyBAgAABAgQIEMgExGhGb5gAAQIECBAgQECM+gECBAgQIECAAIFMQIxm9IYJECBAgAABAgTEqB8gQIAAAQIECBDIBMRoRm+YAAECBAgQIEBAjPoBAgQIECBAgACBTECMZvSGCRAgQIAAAQIExKgfIECAAAECBAgQyATEaEZvmAABAgQIECBAQIz6AQIECBAgQIAAgUxAjGb0hgkQIECAAAECBMSoHyBAgAABAgQIEMgExGhGb5gAAQIECBAgQECM+gECBAgQIECAAIFMQIxm9IYJECBAgAABAgTEqB8gQIAAAQIECBDIBMRoRm+YAAECBAgQIEBAjPoBAgQIECBAgACBTECMZvSGCRAgQIAAAQIExKgfIECAAAECBAgQyATEaEZvmAABAgQIECBAQIz6AQIECBAgQIAAgUxAjGb0hgkQIECAAAECBMSoHyBAgAABAgQIEMgExGhGb5gAAQIECBAgQECM+gECBAgQIECAAIFMQIxm9IYJECBAgAABAgTEqB8gQIAAAQIECBDIBMRoRm+YAAECBAgQIEBAjPoBAgQIECBAgACBTECMZvSGCRAgQIAAAQIExKgfIECAAAECBAgQyATEaEZvmAABAgQIECBAQIz6AQIECBAgQIAAgUxAjGb0hgkQIECAAAECBMSoHyBAgAABAgQIEMgExGhGb5gAAQIECBAgQECM+gECBAgQIECAAIFMQIxm9IYJECBAgAABAgTEqB8gQIAAAQIECBDIBMRoRm+YAAECBAgQIEBAjPoBAgQIECBAgACBTECMZvSGCRAgQIAAAQIExKgfIECAAAECBAgQyATEaEZvmAABAgQIECBAQIz6AQIECBAgQIAAgUxAjGb0hgkQIECAAAECBMSoHyBAgAABAgQIEMgExGhGb5gAAQIECBAgQECM+gECBAgQIECAAIFMQIxm9IYJECBAgAABAgTEqB8gQIAAAQIECBDIBMRoRm+YAAECBAgQIEBAjPoBAgQIECBAgACBTECMZvSGCRAgQIAAAQIExKgfIECAAAECBAgQyATEaEZvmAABAgQIECBAQIz6AQIECBAgQIAAgUxAjGb0hgkQIECAAAECBMSoHyBAgAABAgQIEMgExGhGb5gAAQIECBAgQECM+gECBAgQIECAAIFMQIxm9IYJECBAgAABAgTEqB8gQIAAAQIECBDIBMRoRm+YAAECBAgQIEBAjPoBAgQIECBAgACBTECMZvSGCRAgQIAAAQIExKgfIECAAAECBAgQyATEaEZvmAABAgQIECBAQIz6AQIECBAgQIAAgUxAjGb0hgkQIECAAAECBMSoHyBAgAABAgQIEMgExGhGb5gAAQIECBAgQECM+gECBAgQIECAAIFMQIxm9IYJECBAgAABAgTEqB8gQIAAAQIECBDIBMRoRm+YAAECBAgQIEBAjPoBAgQIECBAgACBTECMZvSGCRAgQIAAAQIExKgfIECAAAECBAgQyATEaEZvmAABAgQIECBAQIz6AQIECBAgQIAAgUxAjGb0hgkQIECAAAECBMSoHyBAgAABAgQIEMgExGhGb5gAAQIECBAgQOABvHJUSi4BatQAAAAASUVORK5CYII="/></defs><style>tspan{white-space:pre}.a{stroke:#333}.b{stroke:#333;stroke-width:2}.c{stroke:#0bf}.d{stroke:#0bf;stroke-width:2}.e{stroke:#0b0}.f{stroke:#0b0;stroke-width:2}.g{stroke:#b0b}.h{stroke:#b0b;stroke-width:2}.i{stroke:#cb0}.j{stroke:#cb0;stroke-width:2}.k{fill:#007;stroke:#000}.l{font-size: 16px;fill: #ffffff;font-family: "Arial"}.m{fill:#aea;stroke:#000}.n{font-size: 16px;fill: #000000;font-family: "Arial"}.o{fill:none;stroke:#000}</style><use  href="#img1" transform="matrix(1,0,0,1,0,0)"/><path class="a" d="m515 125h-10"/><path class="a" d="m400 155h-10"/><path class="a" d="m505 125l-105 30"/><path class="b" d="m507.5 125l3.5 3.5"/><path class="b" d="m507.5 125l3.5-3.5"/><path class="b" d="m395 155l3.5 3.5"/><path class="b" d="m395 155l3.5-3.5"/><path class="a" d="m515 105h-10"/><path class="a" d="m505 45h10"/><path class="a" d="m505 105v-60"/><path class="b" d="m507.5 105l3.5 3.5"/><path class="b" d="m507.5 105l3.5-3.5"/><path class="b" d="m510 45l-3.5 3.5"/><path class="b" d="m510 45l-3.5-3.5"/><path class="c" d="m129 70h10"/><path class="c" d="m268 155h10"/><path class="c" d="m139 70l129 85"/><path class="d" d="m136.5 70l-3.5 3.5"/><path class="d" d="m136.5 70l-3.5-3.5"/><path class="d" d="m273 155l-3.5 3.5"/><path class="d" d="m273 155l-3.5-3.5"/><path class="e" d="m129 50h10"/><path class="e" d="m505 45h10"/><path class="e" d="m139 50l366-5"/><path class="f" d="m136.5 50l-3.5 3.5"/><path class="f" d="m136.5 50l-3.5-3.5"/><path class="f" d="m510 45l-3.5 3.5"/><path class="f" d="m510 45l-3.5-3.5"/><path class="a" d="m465 283h-10"/><path class="a" d="m505 45h10"/><path class="a" d="m455 283l50-238"/><path class="b" d="m457.5 283l3.5 3.5"/><path class="b" d="m457.5 283l3.5-3.5"/><path class="b" d="m510 45l-3.5 3.5"/><path class="b" d="m510 45l-3.5-3.5"/><path class="g" d="m465 303h-10"/><path class="g" d="m400 155h-10"/><path class="g" d="m455 303l-55-148"/><path class="h" d="m457.5 303l3.5 3.5"/><path class="h" d="m457.5 303l3.5-3.5"/><path class="h" d="m395 155l3.5 3.5"/><path class="h" d="m395 155l3.5-3.5"/><path class="i" d="m127 284h10"/><path class="i" d="m268 155h10"/><path class="i" d="m137 284l131-129"/><path class="j" d="m134.5 284l-3.5 3.5"/><path class="j" d="m134.5 284l-3.5-3.5"/><path class="j" d="m273 155l-3.5 3.5"/><path class="j" d="m273 155l-3.5-3.5"/><path class="i" d="m127 264h10"/><path class="i" d="m268 155h10"/><path class="i" d="m137 264l131-109"/><path class="j" d="m134.5 264l-3.5 3.5"/><path class="j" d="m134.5 264l-3.5-3.5"/><path class="j" d="m273 155l-3.5 3.5"/><path class="j" d="m273 155l-3.5-3.5"/><path class="k" d="m515 15h112v20h-112z"/><text style="transform:matrix(1,0,0,1,520,29)" ><tspan x="0" y="0" class="l"> tweet
+</tspan></text><path class="m" d="m515 35h112v20h-112z"/><text style="transform:matrix(1,0,0,1,520,49)" ><tspan x="0" y="0" class="n">id
+</tspan></text><path class="o" d="m515 55h112v20h-112z"/><text style="transform:matrix(1,0,0,1,520,69)" ><tspan x="0" y="0" class="n">text
+</tspan></text><path class="o" d="m515 75h112v20h-112z"/><text style="transform:matrix(1,0,0,1,520,89)" ><tspan x="0" y="0" class="n">time
+</tspan></text><path class="o" d="m515 95h112v20h-112z"/><text style="transform:matrix(1,0,0,1,520,109)" ><tspan x="0" y="0" class="n">mention_id
+</tspan></text><path class="o" d="m515 115h112v20h-112z"/><text style="transform:matrix(1,0,0,1,520,129)" ><tspan x="0" y="0" class="n">user_id
+</tspan></text><path class="k" d="m17 20h112v20h-112z"/><text style="transform:matrix(1,0,0,1,22,34)" ><tspan x="0" y="0" class="l"> tweet_favs
+</tspan></text><path class="o" d="m17 40h112v20h-112z"/><text style="transform:matrix(1,0,0,1,22,54)" ><tspan x="0" y="0" class="n">tweet_id
+</tspan></text><path class="o" d="m17 60h112v20h-112z"/><text style="transform:matrix(1,0,0,1,22,74)" ><tspan x="0" y="0" class="n">favs_id
+</tspan></text><path class="k" d="m465 253h112v20h-112z"/><text style="transform:matrix(1,0,0,1,470,267)" ><tspan x="0" y="0" class="l"> tweet_retweets
+</tspan></text><path class="o" d="m465 273h112v20h-112z"/><text style="transform:matrix(1,0,0,1,470,287)" ><tspan x="0" y="0" class="n">tweet_id
+</tspan></text><path class="o" d="m465 293h112v20h-112z"/><text style="transform:matrix(1,0,0,1,470,307)" ><tspan x="0" y="0" class="n">retweets_id
+</tspan></text><path class="k" d="m278 125h112v20h-112z"/><text style="transform:matrix(1,0,0,1,283,139)" ><tspan x="0" y="0" class="l"> user
+</tspan></text><path class="m" d="m278 145h112v20h-112z"/><text style="transform:matrix(1,0,0,1,283,159)" ><tspan x="0" y="0" class="n">id
+</tspan></text><path class="o" d="m278 165h112v20h-112z"/><text style="transform:matrix(1,0,0,1,283,179)" ><tspan x="0" y="0" class="n">biography
+</tspan></text><path class="o" d="m278 185h112v20h-112z"/><text style="transform:matrix(1,0,0,1,283,199)" ><tspan x="0" y="0" class="n">birthday
+</tspan></text><path class="o" d="m278 205h112v20h-112z"/><text style="transform:matrix(1,0,0,1,283,219)" ><tspan x="0" y="0" class="n">first_name
+</tspan></text><path class="o" d="m278 225h112v20h-112z"/><text style="transform:matrix(1,0,0,1,283,239)" ><tspan x="0" y="0" class="n">last_name
+</tspan></text><path class="o" d="m278 245h112v20h-112z"/><text style="transform:matrix(1,0,0,1,283,259)" ><tspan x="0" y="0" class="n">mail
+</tspan></text><path class="o" d="m278 265h112v20h-112z"/><text style="transform:matrix(1,0,0,1,283,279)" ><tspan x="0" y="0" class="n">password
+</tspan></text><path class="o" d="m278 285h112v20h-112z"/><text style="transform:matrix(1,0,0,1,283,299)" ><tspan x="0" y="0" class="n">reg_date
+</tspan></text><path class="o" d="m278 305h112v20h-112z"/><text style="transform:matrix(1,0,0,1,283,319)" ><tspan x="0" y="0" class="n">username
+</tspan></text><path class="k" d="m15 234h112v20h-112z"/><text style="transform:matrix(1,0,0,1,20,248)" ><tspan x="0" y="0" class="l"> user_followings
+</tspan></text><path class="o" d="m15 254h112v20h-112z"/><text style="transform:matrix(1,0,0,1,20,268)" ><tspan x="0" y="0" class="n">user_id
+</tspan></text><path class="o" d="m15 274h112v20h-112z"/><text style="transform:matrix(1,0,0,1,20,288)" ><tspan x="0" y="0" class="n">followings_id
+</tspan></text></svg>
