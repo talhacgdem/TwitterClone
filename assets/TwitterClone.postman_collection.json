@@ -1,0 +1,473 @@
+{
+	"info": {
+		"_postman_id": "1d527d2c-eb9a-4f58-9e50-33189e3981fa",
+		"name": "TwitterClone",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18833679"
+	},
+	"item": [
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "List",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/user/list",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"user",
+								"list"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Follow",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"followId\":2\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/user/follow",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"user",
+								"follow"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Unfollow",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"followId\":1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/user/unfollow",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"user",
+								"unfollow"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\":\"talhacgdem\",\r\n    \"password\":\"talha\",\r\n    \"firstName\":\"Muhammed Talha\",\r\n    \"lastName\":\"Çiğdem\",\r\n    \"birthday\":\"1998-12-01\",\r\n    \"biography\":\"bio\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/user/update",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"user",
+								"update"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Auth",
+			"item": [
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\":\"yasarcsr\",\r\n    \"password\":\"yasarcsr\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/auth/login",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Register",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\":\"talhacgdem\",\r\n    \"password\":\"talhacgdem\",\r\n    \"firstName\":\"Muhammed Talha\",\r\n    \"lastName\":\"Çiğdem\",\r\n    \"birthday\":\"1998-12-01\",\r\n    \"mail\": \"talhacgdem@gmail.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/auth/register",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"auth",
+								"register"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Tweet",
+			"item": [
+				{
+					"name": "New Tweet",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \r\n    \"text\": \"talha tweet 9\",\r\n    \"mentionId\" : null\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/tweet/new",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"tweet",
+								"new"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UnFav",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"tweetId\":2\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/tweet/unfav",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"tweet",
+								"unfav"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fav",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"tweetId\":11\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/tweet/fav",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"tweet",
+								"fav"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "List",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/tweet/list",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"tweet",
+								"list"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/tweet/get/2",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"tweet",
+								"get",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Retweet",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"tweetId\":3\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/tweet/retweet",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"tweet",
+								"retweet"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "TimeLine",
+			"item": [
+				{
+					"name": "MyTweets",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/timeline/mine",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"timeline",
+								"mine"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetAll",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}/timeline/get",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"timeline",
+								"get"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "url",
+			"value": "http:/http://217.79.178.34:8080"
+		},
+		{
+			"key": "token",
+			"value": "aaaa"
+		}
+	]
+}
